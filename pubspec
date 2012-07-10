@@ -1,0 +1,3 @@
+dependencies:
+  range:
+      git: git://github.com/olov/dart-range.git

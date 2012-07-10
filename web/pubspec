@@ -1,0 +1,3 @@
+dependencies:
+  widget:
+      git: https://bitbucket.org/munificent/widget.git
