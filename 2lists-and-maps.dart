@@ -3,11 +3,13 @@
 main() {
   print("Lists and maps are good built in types just with wordy method names");
   var l = [1, 2, 4]; // Nothing to see here
+  print("Need to enabled asserts at command line (really I mean really) time dart --enable_type_checks --enable_asserts 2lists-and-maps.dart");
   assert(l.length == 3); // assert as buitling +1 
   List<int> javaListish = [1, 2, 3]; // We can statically type Javaisms with generikz
-  assert(javaListish.lenght() == 3); // Javaishy
+  assert(javaListish.length == 3); // Javaishy
+
   for(var jl in javaListish) { // var is required I mean really! (could be int)
-    print("$jl like the 'in' make this looking thing not so much typing");
+    print("$jl +1 'in' and built in string templates +1");
   }
   var m = {'foo':'bar', 'python':'cooler', 'learn':'go'};
   /* Sad this doesn't work
@@ -15,7 +17,7 @@ main() {
     print('$k, $v wouldn\'t it be nice if this worked');
   }
   */
-  m.forEach((k, v) => print("$k, $v I guess this isn't so bad"));
+  m.forEach((k, v) => print("$k, $v I guess this isn't so bad")); // Anonymous functions +1
   var pythonKey = "python";
   var cooler = m[pythonKey];
   String learnKey = "learn";

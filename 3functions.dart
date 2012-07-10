@@ -10,7 +10,6 @@ bool isHappy(String v) {
 main() {
   int d = twice(2); 
   if(isHappy('HAPPY')) {
-    print('Terse function defination anyway');
+    print('Terse function defination anyway'); // Does this mean no more console.log?
   }
-
 }
